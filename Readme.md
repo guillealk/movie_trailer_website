@@ -1,8 +1,8 @@
-#Movie Trailer Website
+# Movie Trailer Website #
 
 This is a project of the Udacity's Full Stack Developer Nanodegree.
 
-##Instrucitons to Run Project
+## Instrucitons to Run Project ##
 
 To create the HTML web site, should follow the next steps:
 
