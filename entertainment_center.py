@@ -1,6 +1,8 @@
 import media
 import fresh_tomatoes
 
+""" This class contains the list of the movies. There the series of movies of Harry Potter and Pirates of Caribbean"""
+
 harry_potter_stone = media.Movie("Harry Potter and the Philosopher's Stone",
 						"A story of a boy and his toys that come to life",
 						"https://upload.wikimedia.org/wikipedia/en/c/c0/Harry_Potter_and_the_Philosopher%27s_Stone_posters.JPG",
@@ -44,7 +46,8 @@ harry_potter_hallows2 = media.Movie ("Harry Potter and the Deathly Hallows - Par
 							"https://www.youtube.com/watch?v=mObK5XD8udk")
 
 pirates_caribbean_black_pearl = media.Movie ("Pirates of the Caribbean: The Curse of the Black Pearl",
-											"Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+											"Blacksmith Will Turner teams up with eccentric pirate \"Captain\" "
+											"Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
 											"https://upload.wikimedia.org/wikipedia/en/8/89/Pirates_of_the_Caribbean_-_The_Curse_of_the_Black_Pearl.png",
 											"https://www.youtube.com/watch?v=naQr0uTrH_s")
 pirates_caribbean_dead_man = media.Movie ("Pirates of the Caribbean: Dead Man's Chest",
@@ -67,6 +70,9 @@ pirates_caribbean_no_tales = media.Movie ("Pirates of the Caribbean: Dead Men Te
 											"https://upload.wikimedia.org/wikipedia/en/2/21/Pirates_of_the_Caribbean%2C_Dead_Men_Tell_No_Tales.jpg",
 											"https://www.youtube.com/watch?v=6i77T6KzYxM")
 
+""" The list of the movie objects"""
 movies = [harry_potter_stone, harry_potter_chamber, harry_potter_azkaban,harry_potter_goblet, harry_potter_phoenix, harry_potter_half_blood, harry_potter_hallows1, harry_potter_hallows2,
 		  pirates_caribbean_black_pearl, pirates_caribbean_dead_man,pirates_caribbean_world_end, pirates_caribbean_stranger_tides, pirates_caribbean_no_tales]
+
+""" Method that create the webpage using the Fresh tomatoes library"""
 fresh_tomatoes.open_movies_page(movies)
