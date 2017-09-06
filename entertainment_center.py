@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-""" This class contains the list of the movies. There the series of movies of Harry Potter and Pirates of Caribbean"""
+""" This class contains the list of the movies. There are the series of movies of Harry Potter and Pirates of Caribbean"""
 
 harry_potter_stone = media.Movie("Harry Potter and the Philosopher's Stone",
 						"A story of a boy and his toys that come to life",
@@ -51,22 +51,26 @@ pirates_caribbean_black_pearl = media.Movie ("Pirates of the Caribbean: The Curs
 											"https://upload.wikimedia.org/wikipedia/en/8/89/Pirates_of_the_Caribbean_-_The_Curse_of_the_Black_Pearl.png",
 											"https://www.youtube.com/watch?v=naQr0uTrH_s")
 pirates_caribbean_dead_man = media.Movie ("Pirates of the Caribbean: Dead Man's Chest",
-											"Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
+											"Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service,"
+											" as other friends and foes seek the heart for their own agenda as well.",
 											"https://upload.wikimedia.org/wikipedia/en/2/2d/Pirates_of_the_caribbean_2_poster_b.jpg",
 											"https://www.youtube.com/watch?v=ozk0-RHXtFw")
 
 pirates_caribbean_world_end = media.Movie ("Pirates of the Caribbean: At World's End",
-											"Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
+											"Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map,"
+											" navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
 											"https://upload.wikimedia.org/wikipedia/en/5/5a/Pirates_AWE_Poster.jpg",
 											"https://www.youtube.com/watch?v=HKSZtp_OGHY")
 
 pirates_caribbean_stranger_tides = media.Movie ("Pirates of the Caribbean: On Stranger Tides",
-											"Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
+											"Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth,"
+											" only to discover that Blackbeard and his daughter are after it too.",
 											"https://upload.wikimedia.org/wikipedia/en/c/c6/On_Stranger_Tides_Poster.jpg",
 											"https://www.youtube.com/watch?v=KR_9A-cUEJc")
 
 pirates_caribbean_no_tales = media.Movie ("Pirates of the Caribbean: Dead Men Tell No Tales",
-											"Captain Jack Sparrow searches for the trident of Poseidon while being pursued by an undead sea captain and his crew.",
+											"Captain Jack Sparrow searches for the trident of Poseidon while being pursued by an"
+											" undead sea captain and his crew.",
 											"https://upload.wikimedia.org/wikipedia/en/2/21/Pirates_of_the_Caribbean%2C_Dead_Men_Tell_No_Tales.jpg",
 											"https://www.youtube.com/watch?v=6i77T6KzYxM")
 
@@ -74,5 +78,5 @@ pirates_caribbean_no_tales = media.Movie ("Pirates of the Caribbean: Dead Men Te
 movies = [harry_potter_stone, harry_potter_chamber, harry_potter_azkaban,harry_potter_goblet, harry_potter_phoenix, harry_potter_half_blood, harry_potter_hallows1, harry_potter_hallows2,
 		  pirates_caribbean_black_pearl, pirates_caribbean_dead_man,pirates_caribbean_world_end, pirates_caribbean_stranger_tides, pirates_caribbean_no_tales]
 
-""" Method that create the webpage using the Fresh tomatoes library"""
+""" Method that creates the webpage using the Fresh tomatoes library"""
 fresh_tomatoes.open_movies_page(movies)
