@@ -97,7 +97,7 @@ pirates_caribbean_no_tales = media.Movie ("Pirates of the Caribbean: Dead Men Te
 
 """ The list of the movie objects"""
 movies = [harry_potter_stone, harry_potter_chamber, harry_potter_azkaban,harry_potter_goblet, harry_potter_phoenix, harry_potter_half_blood, harry_potter_hallows1, harry_potter_hallows2,
-		  pirates_caribbean_black_pearl, pirates_caribbean_dead_man,pirates_caribbean_world_end, pirates_caribbean_stranger_tides, pirates_caribbean_no_tales]
+		pirates_caribbean_black_pearl, pirates_caribbean_dead_man,pirates_caribbean_world_end, pirates_caribbean_stranger_tides, pirates_caribbean_no_tales]
 
 """ Method that creates the webpage using the Fresh tomatoes library"""
 fresh_tomatoes.open_movies_page(movies)
